@@ -1,10 +1,12 @@
 <?PHP
 
 //ログ・デバッグ管理用のオリジナル関数
-require_once('/Users/kamogashiratsuyoshi/Dropbox/_local_mamp/my_functions/kamo_mlog/kamo_mlog.php');
-$log = new Mlog();
+require_once('/Users/kamogashiratsuyoshi/Dropbox/_local_mamp/kamo_functions/kamo_mlog/kamo_mlog.php');
 //end
 
+/** ログ出力test--OK */
+//$mlog = new Mlog(__DIR__);
+//$mlog->debug('hogehoge');
 
 //スタイルシートの読み込み
 function k_load_scripts(){
